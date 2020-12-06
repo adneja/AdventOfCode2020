@@ -6,7 +6,7 @@ namespace Aoc.Days
     {
         public Day6(string path) : base(path)
         {
-
+            
         }
 
         public int PartOne()
