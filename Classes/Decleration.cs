@@ -30,12 +30,9 @@ namespace Aoc.Classes
 
             foreach(char c in distinct)
             {
-                if(answers.TrueForAll(a => a.Contains(c)))
-                {
-                    count++;
-                }
+                if(answers.TrueForAll(a => a.Contains(c))) count++;
             }
-            
+
             return count;
         }
     }
