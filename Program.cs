@@ -23,6 +23,9 @@ namespace Aoc
 
             Day6 daySix = new Day6("input6.txt");
             daySix.Solve();
+
+            Day7 daySeven = new Day7("input7.txt");
+            daySeven.Solve();
         }
     }
 }
